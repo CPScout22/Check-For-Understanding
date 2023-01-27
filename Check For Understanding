@@ -1,0 +1,129 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+int main(){
+	int input;
+	char input1;
+	
+	 
+	for (int x = 25; x < 46; x++)
+		cout << x << " ";
+
+	cout << endl;
+
+	for (int j = 90; j >= 70; j -= 2)
+		cout << j << " ";
+
+	cout << endl;
+
+	for (int o = 10; o <= 5001; o *= 5)
+		cout << o << " ";
+
+	cout << endl;
+
+
+	cout << "             " << endl;
+	
+	cout << "How many cookie got you?" << endl;
+		cin >> input;
+	cout << "              " << endl;
+	
+	if (input < 5)
+		cout << "Here a cookie go" << endl;
+
+	else if (input < 10)
+		cout << "That amount of cookie is good " << endl;
+
+	else if (input > 10)
+		cout << "That too much cookie I take one" << endl;
+
+
+	cout << "                    " << endl;
+	
+	cout << " Who best do you like? (b)art simpson, (s)cooby doo, (r)ick, or (d)affy duck?" << endl;
+		cin >> input1;
+
+	if (input1 == 'b')
+		cout << " Eat it no cap " << endl;
+
+	if (input == 's')
+		cout << " Skoovby " << endl;
+
+	if (input == 'r')
+		cout << " wbababa " << endl;
+
+	if (input == 'd')
+		cout << " Scallywag " << endl;
+
+	cout << "              " << endl;
+	
+	int i = 1;
+	switch (i) {
+		char input2;
+		
+		case 1:
+		
+
+		cout << " Who best do you like? (b)art simpson, (s)cooby doo, (r)ick, or (d)affy duck?" << endl;
+			cin >> input2;
+
+		if (input2 == 'b')
+			cout << " Eat it no cap " << endl;
+
+		if (input2 == 's')
+			cout << " Skoovby " << endl;
+
+		if (input2 == 'r')
+			cout << " wbababa " << endl;
+
+		if (input2 == 'd')
+			cout << " Scallywag " << endl;
+
+		break;
+
+		cout << "                " << endl;
+
+
+		char snakz;
+		cout << "What you want b? we got some stuff no cap" << endl;
+		cout << "we got da (i)ce cream or (k)andy" << endl;
+		cin >> snakz;
+		if (snakz == 'i') {
+			cout << "you want (c)hocolate or (f)ruit?" << endl;
+			cin >> snakz;
+			if (snakz == 'c')
+				cout << "you got hot fudge blueberry faygo ice cream" << endl;
+			else if (snakz == 'f')
+				cout << "you get a straubary blicky " << endl;
+		}
+		if (snakz == 'k') {
+			cout << "you want chocolat(e) or (f)ruit?" << endl;
+			cin >> snakz;
+			if (snakz == 'c')
+				cout << "you get choco mil " << endl;
+			else if (snakz == 'f')
+				cout << "you get a starbrrrr" << endl;
+		}
+
+	
+
+
+
+
+	
+		
+
+
+
+		
+
+
+
+	
+
+
+	
+
+
+}
